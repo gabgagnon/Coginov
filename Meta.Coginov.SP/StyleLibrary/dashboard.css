@@ -1,0 +1,26 @@
+﻿.flow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#auditContainer > div {
+    flex: 0 40%;
+    text-align: center;
+    order: 2;
+}
+
+#auditContainer > div.flow-3 {
+    flex-basis: 21%;
+    flex-grow: 0;
+    order: 1;
+    margin: auto;
+}
+
+#auditContainer > div > .title {
+    display: block;
+
+    /* Ais-je mieux? */
+    font-size: 18px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}

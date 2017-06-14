@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coginov", "Coginov\Coginov.csproj", "{48D0DD00-17B0-4838-A817-F7DEAB52512C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Coginov.SP", "Meta.Coginov.SP\Meta.Coginov.SP.csproj", "{30362F81-77BE-45B7-B216-78806FCEA502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MurmurHash-net4", "murmurhash-net\MurmurHash-net4\MurmurHash-net4.csproj", "{B051568C-7D57-47CC-8195-B7F8F2C4A916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{0D62E245-D419-46EA-B22C-A281D877860D}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\BI SP Info Audit - Proposal.pptx = Documents\BI SP Info Audit - Proposal.pptx
+		Documents\semantic-extractor-user-guide.docx = Documents\semantic-extractor-user-guide.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output API Semantic", "Output API Semantic", "{3937F4C7-13D5-4922-AD81-E18019140FE0}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\output API\10.xml = Documents\output API\10.xml
+		Documents\output API\1000.xml = Documents\output API\1000.xml
+		Documents\output API\10000.xml = Documents\output API\10000.xml
+		Documents\output API\10006.xml = Documents\output API\10006.xml
+		Documents\output API\AS-2012 - Réponse 1.docx = Documents\output API\AS-2012 - Réponse 1.docx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Coginov.Web", "Meta.Coginov.Web\Meta.Coginov.Web.csproj", "{B3FD3886-DFEA-4B57-8C4F-A1D5FB2384D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D0DD00-17B0-4838-A817-F7DEAB52512C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D0DD00-17B0-4838-A817-F7DEAB52512C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D0DD00-17B0-4838-A817-F7DEAB52512C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D0DD00-17B0-4838-A817-F7DEAB52512C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30362F81-77BE-45B7-B216-78806FCEA502}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B051568C-7D57-47CC-8195-B7F8F2C4A916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B051568C-7D57-47CC-8195-B7F8F2C4A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B051568C-7D57-47CC-8195-B7F8F2C4A916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B051568C-7D57-47CC-8195-B7F8F2C4A916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FD3886-DFEA-4B57-8C4F-A1D5FB2384D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FD3886-DFEA-4B57-8C4F-A1D5FB2384D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FD3886-DFEA-4B57-8C4F-A1D5FB2384D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FD3886-DFEA-4B57-8C4F-A1D5FB2384D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3937F4C7-13D5-4922-AD81-E18019140FE0} = {0D62E245-D419-46EA-B22C-A281D877860D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.metalogique.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Coginov\\Coginov.csproj
+		SccProjectName1 = Coginov
+		SccLocalPath1 = Coginov
+		SccProjectUniqueName2 = Meta.Coginov.SP\\Meta.Coginov.SP.csproj
+		SccProjectName2 = Meta.Coginov.SP
+		SccLocalPath2 = Meta.Coginov.SP
+		SccProjectUniqueName3 = murmurhash-net\\MurmurHash-net4\\MurmurHash-net4.csproj
+		SccProjectName3 = murmurhash-net/MurmurHash-net4
+		SccLocalPath3 = murmurhash-net\\MurmurHash-net4
+		SccProjectUniqueName4 = Meta.Coginov.Web\\Meta.Coginov.Web.csproj
+		SccProjectName4 = Meta.Coginov.Web
+		SccLocalPath4 = Meta.Coginov.Web
+	EndGlobalSection
+EndGlobal

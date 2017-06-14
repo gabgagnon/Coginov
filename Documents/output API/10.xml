@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<envelope>
+	<header/>
+	<body>
+		<coginovApiResponse xmlns="http://www.coginov.com/api">
+			<serviceResult name="GetDoc">
+				<result>success</result>
+				<Language>fr</Language>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[objet de la recette]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[objet de la recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[recette cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[recette CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[recette en phase]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[recette en phase]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[pv de recette]]></XConcept>
+						<Count>4</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[PV de Recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[recette de ces travaux]]></XConcept>
+						<Count>4</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[recette de ces travaux]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[déroulement de la recette]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[déroulement de la recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur de recette]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[serveur de recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[livraison pour recette]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Livraison pour recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[première phase de recette]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[première phase de recette]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[recette des évolutions effectuée]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-UPPER|ADJ</Rule>
+						<OriginalString><![CDATA[recette des évolutions effectuée]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[requêtes select]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[requêtes SELECT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[développements spécifiques]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[développements spécifiques]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[requête ensembliste]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[requête ensembliste]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[requêtes dao réalisation]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[requêtes DAO Réalisation]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[représenté par valmène salmon]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Représenté par Valmène SALMON]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[représenté par cédric schoindre]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Représenté par Cédric SCHOINDRE]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[requêtes select à jointure]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[requêtes SELECT à jointure]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[remarques suivantes]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[remarques suivantes]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[page suivante]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Page suivante]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[tâches suivantes]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[tâches suivantes]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[flushmode à never]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[FlushMode à NEVER]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[portlet gros]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Portlet GROS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nouveau portlet]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[nouveau portlet]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[représenté par val]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Représenté par Val]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[développement spécifique concernant les retours]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ-VER|PRE|DET|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Développement spécifique concernant les retours]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[planning prévisionnel de réalisation]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[planning prévisionnel de réalisation]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[développement spécifique concernant les tickets]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ-VER|PRE|DET|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Développement spécifique concernant les tickets]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[défauts constatés suivants]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|ADJ|ADJ-VER:PP-UPPER</Rule>
+						<OriginalString><![CDATA[défauts constatés suivants]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[planning prévisionnel]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Planning prévisionnel]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[réalisations des préconisations neoxia]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[réalisations des préconisations Neoxia]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nuage de tags]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[nuage de tags]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[getoisplayabjearticle flushmode à never]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[getOisplayabJeArticle FlushMode à NEVER]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[gros plann]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Gros plann]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nouvelle gestion]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Nouvelle gestion]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[administration nouveau]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[administration nouveau]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nuage de tags suppression]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[nuage de tags Suppression]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[optimisation hibernate flushmode]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Optimisation Hibernate FlushMode]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[emetteur cédric schoindre]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Emetteur Cédric SCHOINDRE]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[destinataire valmène salmon]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Destinataire Valmène SALMON]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bloc la cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[bloc LA CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[evolution gros plan]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|ADJ-VER:PP-UPPER</Rule>
+						<OriginalString><![CDATA[Evolution Gros plan]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[intégrateur de solutions]]></XConcept>
+						<Count>4</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Intégrateur de solutions]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[audit de neoxia]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Audit de Neoxia]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[méthode sans récursivité]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[méthode sans récursivité]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[objets persistants]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[objets persistants]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[indexation immédiate]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Indexation immédiate]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[méthode entier]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[méthode entier]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bloc de code]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[bloc de code]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[sanchez patrice salsa]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[SANCHEZ Patrice SALSA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[base de données indexation]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[base de données Indexation]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[conseil innovation solution]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Conseil Innovation Solution]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[copies michel sanchez]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Copies Michel SANCHEZ]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[fonction de chef]]></XConcept>
+						<Count>4</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[fonction de Chef]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[fait à paris]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Fait à Paris]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[évolutfons présentes]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[évolutfons présentes]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[buildtree utiliser arrayllst]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[buildTree Utiliser Arrayllst]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[readarticle même]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[ReadArticle Même]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[fetchmode à join]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[FetchMode à JOIN]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[publication d' un article]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[publication d'un article]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[colonnes dans certaines tables]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|ADJ|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[colonnes dans certaines tables]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[carte de france]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[carte de France]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[ressources statiques]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[ressources statiques]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cbef de projet]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Cbef de projet]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[rue fortuny]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[rue Fortuny]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[recherche d' adhérent]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[recherche d'adhérent]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[note de cadrage]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Note de cadrage]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[igenia concernant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[IGENIA concernant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[les remarques suivantes ont été faites]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM-UPPER|ADJ|AUX:Avoir|AUX:Etre|VER:PP</Rule>
+						<OriginalString><![CDATA[Les remarques suivantes ont été faites]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[salmon assurant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[SALMON assurant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[schoindre assurant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[SCHOINDRE assurant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[salmon va]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[SALMON Va]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[buildtree utiliser]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[buildTree Utiliser]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[lucene supprimer]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[lucene supprimer]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[l' exécution éviter]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[l'exécution éviter]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[la carte de france stocker]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM|PRE|NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[la carte de France stocker]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[igenia concernant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[IGENIA concernant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[la cfdt agit]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[LA CFDT agit]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[représenté par val mène]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[Représenté par Val mène]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[salmon assurant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[SALMON assurant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[schoindre assurant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[SCHOINDRE assurant]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtEntity" type="ExtEntity">
+				<ExtEntities>
+					<ExtEntity>
+						<Entity><![CDATA[PV de Recette]]></Entity>
+						<Count>4</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Audit de Neoxia]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Projet]]></Entity>
+						<Count>4</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Portail]]></Entity>
+						<Count>2</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Préconisations Neoxia]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Planning prévisionnel Préconisations Neoxla]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Cédric SChQiodre]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Cc 'Miche! Sanchez]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[buildTree Utiliser Arrayllst]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[userCan ReadArticle Même]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[getOisplayabJeArticle FlushMode]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Optimisation Hibernate FlushMode]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Optimisation Hibemate]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Evolution Portlet]]></Entity>
+						<Count>2</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[DAO Réalisation]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Indexation]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Recette IGenia]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Conseil Innovation Solution]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Pôle Ingénierie]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Evolution Gros]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+				</ExtEntities>
+			</serviceResult>
+			<serviceResult name="DTETime" type="DTETime">
+				<extDTETime>
+					<extDTETime>
+						<timexpr>26 décembre 2011</timexpr>
+					</extDTETime>
+					<extDTETime>
+						<timexpr>vendredI 4 novembre 2011</timexpr>
+					</extDTETime>
+					<extDTETime>
+						<timexpr>9 décembre 2011</timexpr>
+					</extDTETime>
+					<extDTETime>
+						<timexpr>06 janvier 2012</timexpr>
+					</extDTETime>
+				</extDTETime>
+			</serviceResult>
+			<serviceResult name="DTEDate" type="DTEDate">
+				<extDTEDate>
+					<extDTEDate>
+						<Date>01/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>13/12/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>2/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>18/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>19/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>23/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>18/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>30/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>01/12/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>01/12/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>9/12/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>01/11/2011</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>13/12/2011</Date>
+					</extDTEDate>
+				</extDTEDate>
+			</serviceResult>
+		</coginovApiResponse>
+	</body>
+</envelope>

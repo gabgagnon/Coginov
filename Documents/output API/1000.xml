@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<envelope>
+	<header/>
+	<body>
+		<coginovApiResponse xmlns="http://www.coginov.com/api">
+			<serviceResult name="GetDoc">
+				<result>success</result>
+				<Language>fr</Language>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[production cfdt]]></XConcept>
+						<Count>37</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[production	CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[portail cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[portail CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[intégration cfdt]]></XConcept>
+						<Count>10</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[intégration	CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[prod cfdt]]></XConcept>
+						<Count>6</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[prod	CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[appliance cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[appliance CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[hebergé cfdt]]></XConcept>
+						<Count>3</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[hebergé CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[production cfdt na]]></XConcept>
+						<Count>3</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[production	CFDT	NA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[slas serveurs]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[SLAs Serveurs]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-int-cnasdb serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-INT-CNASDB	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-apcosta serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-APCOSTA	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-dbcosta serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-DBCOSTA	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-costaeai serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-COSTAEAI	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-fbasag serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-FBASAG	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-europf serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-EUROPF	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-bddportail serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-BDDPORTAIL	serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-portail serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-PORTAIL	serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-cnasdb serveur]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-CNASDB	Serveur]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur de bases de données]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Serveur de bases de données]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur applicatif costa]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Serveur Applicatif COSTA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur applicatif cnas]]></XConcept>
+						<Count>3</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Serveur Applicatif CNAS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur de base de donnée]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Serveur de base de donnée]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-spdb serveur de base]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-SPDB	Serveur de base]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur web portail]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Serveur Web Portail]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-spapp serveur d' application]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-SPAPP	Serveur d'application]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-pp-appevt serveur d' application]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-PP-APPEVT	Serveur d'application]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-harry serveur d' application]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-HARRY	Serveur d'application]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur eai costa]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Serveur EAI COSTA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-glpi serveur de gestion]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-GLPI	Serveur de gestion]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-kelio serveur de gestion]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-KELIO	Serveur de gestion]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-innes serveur de gestion]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-INNES	serveur de gestion]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur web de pp]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Serveur Web de PP]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur database de pp]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Serveur Database de PP]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-print serveur d' impression]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-PRINT	Serveur d'impression]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-adm serveur d' administration]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-ADM	Serveur d'administration]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[gasel unitaire]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Gasel unitaire]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[accès unitaire]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Accès unitaire]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[suivi unitaire]]></XConcept>
+						<Count>13</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Suivi unitaire]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[services par lot]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[services par Lot]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bases de données costa]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Bases de données COSTA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bases de données cnas]]></XConcept>
+						<Count>3</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Bases de données CNAS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[service du lot concerné]]></XConcept>
+						<Count>3</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-UPPER|ADJ</Rule>
+						<OriginalString><![CDATA[service du lot concerné]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[production fba]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[production	FBA]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[lots lots]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[lots LOTS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[lots inférieurs]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[lots inférieurs]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-thetys application thetys]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-THETYS	Application THETYS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nouveau portail]]></XConcept>
+						<Count>2</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[nouveau portail]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[portail ip]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[portail IP]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[services en criticité]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[services en criticité]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-protime application protime]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-PROTIME	Application PROTIME]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[cfdt-srv-qcuft application quality]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[CFDT-SRV-QCUFT	Application Quality]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[gestion de evenements]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Gestion de evenements]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[server d' intégration thetys]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Server d'intégration THETYS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[étiquettes de lignes]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Étiquettes de lignes]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nombre de nom étiquettes]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Nombre de Nom	Étiquettes]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[sql server pour ebp]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[SQL Server pour EBP]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[total général]]></XConcept>
+						<Count>2</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Total général]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[controleur de domaine]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[controleur de domaine]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[parc glpi]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[parc GLPI]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[gesab avec lien]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[GESAB avec lien]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[réservoire de consolidation gescof relais]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Réservoire de consolidation GESCOF Relais]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[sage fédération banque]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Sage Fédération Banque]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[affichage des écran]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[affichage des écran]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[géré par intrinsec]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[géré par intrinsec]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[tableau de simulation]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[TABLEAU DE SIMULATION]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[indicateurs de disponibilite]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[INDICATEURS DE DISPONIBILITE]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[progressivité des pénalités]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[progressivité des pénalités]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[valeur du taux de disponibilité]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[valeur du taux de disponibilité]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[serveur hébergeant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[serveur hébergeant]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtEntity" type="ExtEntity">
+				<ExtEntities>
+					<ExtEntity>
+						<Entity><![CDATA[Nom	Étiquettes]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Nom	Description]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Database de PP]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+				</ExtEntities>
+			</serviceResult>
+			<serviceResult name="DTETime" type="DTETime">
+				<extDTETime/>
+			</serviceResult>
+			<serviceResult name="DTEDate" type="DTEDate">
+				<extDTEDate/>
+			</serviceResult>
+		</coginovApiResponse>
+	</body>
+</envelope>

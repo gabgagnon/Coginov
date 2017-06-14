@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="AuditActionId"
+    GroupId="SiteCollectionAdmin"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Rights="ManageWeb"
+    Sequence="1"
+    Title="Create Site Collection Audits"
+    Description="Manage audits">
+    <UrlAction Url="~site/_layouts/MetaAudit/Audits.aspx" />
+  </CustomAction>
+</Elements>

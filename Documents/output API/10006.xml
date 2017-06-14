@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<envelope>
+	<header/>
+	<body>
+		<coginovApiResponse xmlns="http://www.coginov.com/api">
+			<serviceResult name="GetDoc">
+				<result>success</result>
+				<Language>fr</Language>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[cluster de firewall]]></XConcept>
+						<Count>5</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[cluster de firewall]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bascule du cluster de firewalls]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[bascule du cluster de firewalls]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[incident réseau]]></XConcept>
+						<Count>2</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Incident réseau]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[incident par intrinsec]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[incident par Intrinsec]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[diagnostics d' incident]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[diagnostics d'incident]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[incident d' indisponibilité]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Incident d'indisponibilité]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[ticket d' incident]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[ticket d'incident]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[compte-rendu incident]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Compte-rendu Incident]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[date incident]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Date Incident]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[modules du cluster]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[modules du cluster]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[résolution d' un incident global]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER|ADJ</Rule>
+						<OriginalString><![CDATA[résolution d'un incident global]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[incident global de performances]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[incident global de performances]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[incident impact partiel]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Incident Impact Partiel]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[rtms incident partiel]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|ADJ-VER:PP-UPPER</Rule>
+						<OriginalString><![CDATA[RTMS incident partiel]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bascule arrière]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Bascule arrière]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[seul module du cluster]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[seul module du cluster]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[firewall de la cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER|PRE:De|DET|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[firewall de la CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[nouveau test de bascule validé]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRE|NOM-UPPER|ADJ</Rule>
+						<OriginalString><![CDATA[Nouveau test de bascule validé]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[plate-forme de test]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[plate-forme de test]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bascules manuelles]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[bascules manuelles]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bascule régulière]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[bascule régulière]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[haute disponibilité du cluster]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[haute disponibilité du cluster]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[réseau saint]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[réseau Saint]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[retour arrière de la bascule]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE:De!PRE:A|DET|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[retour arrière de la bascule]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[dernier test]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO-VER:PP|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[dernier test]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[test planifié]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Test planifié]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[test reporté]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Test reporté]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bon fonctionnement du cluster]]></XConcept>
+						<Count>1</Count>
+						<Rule>ADJ-DET-PRO|NOM-UPPER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[bon fonctionnement du cluster]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[test avec coupure de service]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[test avec coupure de service]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[réseau de saint brieuc]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[réseau de saint Brieuc]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[site de saint brieuc]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[site de Saint Brieuc]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[opération de bascule manuelle]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Opération de bascule manuelle]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[tests de continuité effectués]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[tests de continuité effectués]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[processus de bascule récurrent]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[processus de bascule récurrent]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[routes statiques]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[routes statiques]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[diagnostic effectué]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[diagnostic effectué]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[intrinsec valide]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Intrinsec valide]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[trafic de saint brieuc]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER|UPPER-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[trafic de Saint Brieuc]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[diagnostic approfondi]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[diagnostic approfondi]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[configurations des fw]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[configurations des FW]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[particularité de configuration]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[particularité de configuration]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[configurations réalisée]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[configurations réalisée]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[indisponibilité du service]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[indisponibilité du service]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[côté intrinsec]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[côté Intrinsec]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[sites de la cfdt]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER|PRE:De|DET|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[sites de la CFDT]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[synchronisation des configurations]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[synchronisation des configurations]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[présence d' une route statique]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER|ADJ</Rule>
+						<OriginalString><![CDATA[présence d'une route statique]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[schéma d' architecture global]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[schéma d'architecture global]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[propriété exclusive d' intrinsec]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[Propriété exclusive d'Intrinsec]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[performances de l' infrastructure]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[performances de l'infrastructure]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[module passif]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[module passif]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[site de saint-brieuc]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[site de Saint-Brieuc]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[diagnostic complet du problème]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ-VER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[diagnostic complet du problème]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[retour d' orange]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[Retour d'Orange]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[rétablissement du service]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[rétablissement du service]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[schéma d' architecture uri de bretagne]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[schéma d'architecture URI de Bretagne]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[disponibilité des différents interlocuteurs]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|ADJ|NOM</Rule>
+						<OriginalString><![CDATA[disponibilité des différents interlocuteurs]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[agences uri de bretagne]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|PRE|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[agences URI de Bretagne]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[délais de résolution]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[délais de résolution]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[stabilité de la plate-forme]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[stabilité de la plate-forme]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[ouverture d' un ticket]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRE:A!PRE:De|DET|NOM-UPPER-ADJ</Rule>
+						<OriginalString><![CDATA[ouverture d'un ticket]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[support orange]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[support Orange]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[plan d' action]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[plan d'action]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[plan de progrès]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Plan de progrès]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[liens obs]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[liens OBS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[analyse complémentaire des différents]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ-VER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[Analyse complémentaire des différents]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[équipements d' infrastructure dédiés]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[équipements d'infrastructure dédiés]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[ip de transit obs]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[IP de transit OBS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[diffusion contrôlée]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Diffusion contrôlée]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[reproduction interdite]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Reproduction interdite]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[passerelle locale]]></XConcept>
+						<Count>2</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[passerelle locale]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[abord confirmé]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[abord confirmé]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[interface d' administration web]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-UPPER|UPPER-SYMBOL</Rule>
+						<OriginalString><![CDATA[interface d'administration Web]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[connexion en mode]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[connexion en mode]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[remise en conformité]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[remise en conformité]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[chronologie des événements]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADJ-ADV-UPPER|PRDT|NOM-ADJ</Rule>
+						<OriginalString><![CDATA[chronologie des événements]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[remontée de notification]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[Remontée de notification]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[supervision rtms]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-UPPER-CON-INT-AUX|UPPER-PRE-PRO-DET-SYMBOL-AUX-LETTER</Rule>
+						<OriginalString><![CDATA[supervision RTMS]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[procédure habituelle]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[procédure habituelle]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[surcharge exceptionnelle d' activité]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ|PRE|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[surcharge exceptionnelle d'activité]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[mise en place]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[mise en place]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[routeurs associés]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[routeurs associés]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[table de routage]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM-ADV</Rule>
+						<OriginalString><![CDATA[table de routage]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[localisations géographiques des éléments]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|ADJ-VER|PRDT|NOM-UPPER</Rule>
+						<OriginalString><![CDATA[localisations géographiques des éléments]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[informations supplémentaires]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[informations supplémentaires]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[rcs nanterre b]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[RCS Nanterre B ]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[siège social]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM-ADV|ADJ-VER:Ger</Rule>
+						<OriginalString><![CDATA[Siège social]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[avenue georges clemenceau]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|UPPER-SYMBOL-CON|UPPER-SYMBOL-DET-PRDT-PRE-PRO-CON-AUX-ADV</Rule>
+						<OriginalString><![CDATA[avenue Georges Clemenceau]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtConcept" type="ExtConcept">
+				<ExtConcepts>
+					<ExtConcept>
+						<XConcept><![CDATA[configurations des fw étaient identiques]]></XConcept>
+						<Count>1</Count>
+						<Rule>~DET-PRE|NOM-UPPER|PRDT|NOM|AUX:Etre|ADJ-VER:PP</Rule>
+						<OriginalString><![CDATA[configurations des FW étaient identiques]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[service a été planifié]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|AUX:Avoir|AUX:Etre|VER:PP</Rule>
+						<OriginalString><![CDATA[service a été planifié]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[le test a été reporté]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM-UPPER|AUX:Avoir|AUX:Etre|VER:PP</Rule>
+						<OriginalString><![CDATA[le test a été reporté]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[retour d' orange indiquant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|PRE|NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[Retour d'Orange indiquant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[la route statique annonçant]]></XConcept>
+						<Count>1</Count>
+						<Rule>DET-PRE|NOM|ADJ|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[la route statique annonçant]]></OriginalString>
+					</ExtConcept>
+					<ExtConcept>
+						<XConcept><![CDATA[bretagne incluant]]></XConcept>
+						<Count>1</Count>
+						<Rule>NOM|VER-VER:Ger-VER:Infin-MOD-ADJ-NOM</Rule>
+						<OriginalString><![CDATA[Bretagne incluant]]></OriginalString>
+					</ExtConcept>
+				</ExtConcepts>
+			</serviceResult>
+			<serviceResult name="ExtEntity" type="ExtEntity">
+				<ExtEntities>
+					<ExtEntity>
+						<Entity><![CDATA[Compte-rendu Incident]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Impact Partiel]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[URI de Bretagne]]></Entity>
+						<Count>3</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Retour d'Orange]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Orange]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+					<ExtEntity>
+						<Entity><![CDATA[Georges Clemenceau]]></Entity>
+						<Count>1</Count>
+					</ExtEntity>
+				</ExtEntities>
+			</serviceResult>
+			<serviceResult name="DTETime" type="DTETime">
+				<extDTETime>
+					<extDTETime>
+						<timexpr>19 Janvier 2015</timexpr>
+					</extDTETime>
+				</extDTETime>
+			</serviceResult>
+			<serviceResult name="DTEDate" type="DTEDate">
+				<extDTEDate>
+					<extDTEDate>
+						<Date>19/01/2015</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>20/01/2015</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>22/01/2015</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>04/02/2015</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>23/01-03</Date>
+					</extDTEDate>
+					<extDTEDate>
+						<Date>11/02/2015</Date>
+					</extDTEDate>
+				</extDTEDate>
+			</serviceResult>
+		</coginovApiResponse>
+	</body>
+</envelope>

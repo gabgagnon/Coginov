@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c45b2d84-eb00-4276-863a-3b01bf11dd60" solutionId="c45b2d84-eb00-4276-863a-3b01bf11dd60" resetWebServer="false" sharePointProductVersion="15.0" name="Meta.Coginov.SP" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll" />
+    <projectOutputAssembly location="MurmurHash.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\murmurhash-net\MurmurHash-net4\MurmurHash-net4.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="5b0f3ebc-04a6-45ef-a158-00e1162ebf24" />
+  </features>
+</package>

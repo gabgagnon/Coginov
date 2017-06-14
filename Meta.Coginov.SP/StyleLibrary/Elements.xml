@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="StyLeLibrary" Url="Style Library" Path="StyleLibrary">
+    <File Path="dashboard.css" Url="dashboard.css" Type="GhostableInLibrary" />
+    <File Path="dashboard.js" Url="dashboard.js" Type="GhostableInLibrary" />
+    <File Path="d3.cloud.all.js" Url="d3.cloud.all.js" Type="GhostableInLibrary" />
+    <File Path="highcharts.min.js" Url="highcharts.min.js" Type="GhostableInLibrary" />
+    <File Path="jquery.min.js" Url="jquery.min.js" Type="GhostableInLibrary" />
+    <File Path="lodash.min.js" Url="lodash.min.js" Type="GhostableInLibrary" />
+    <File Path="moment.min.js" Url="moment.min.js" Type="GhostableInLibrary" />
+    <File Path="datatables.min.js" Url="datatables.min.js" Type="GhostableInLibrary" />
+    <File Path="datatables.css" Url="datatables.css" Type="GhostableInLibrary" />
+    <File Path="all.js" Url="all.js" Type="GhostableInLibrary" />
+    <File Path="all.min.js" Url="all.min.js" Type="GhostableInLibrary" />
+    <File Path="spin.js" Url="spin.js" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

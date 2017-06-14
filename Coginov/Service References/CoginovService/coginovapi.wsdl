@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:sch="http://api.coginov.com/api" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://api.coginov.com/api" targetNamespace="http://api.coginov.com/api" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://api.coginov.com/api" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="coginovApiRequest">
+        <complexType>
+          <sequence>
+            <element name="authKey" type="string" />
+            <element minOccurs="0" default="false" name="wrapResultInCdata" type="boolean" />
+            <element minOccurs="0" name="lang">
+              <simpleType>
+                <restriction base="string">
+                  <enumeration value="en" />
+                  <enumeration value="fr" />
+                  <enumeration value="es" />
+                </restriction>
+              </simpleType>
+            </element>
+            <element name="document">
+              <complexType>
+                <all>
+                  <element name="type">
+                    <simpleType>
+                      <restriction base="string">
+                        <enumeration value="DOCUMENT" />
+                        <enumeration value="D" />
+                        <enumeration value="B" />
+                        <enumeration value="TEXT" />
+                        <enumeration value="T" />
+                        <enumeration value="FILE" />
+                        <enumeration value="F" />
+                        <enumeration value="TEXTFILE" />
+                        <enumeration value="TF" />
+                        <enumeration value="FT" />
+                      </restriction>
+                    </simpleType>
+                  </element>
+                  <element name="source" type="string" />
+                  <element minOccurs="0" name="useCache" type="boolean" />
+                  <element minOccurs="0" name="firstPage" type="integer" />
+                  <element minOccurs="0" name="lastPage" type="integer" />
+                  <element minOccurs="0" name="lang">
+                    <simpleType>
+                      <restriction base="string">
+                        <enumeration value="en" />
+                        <enumeration value="fr" />
+                        <enumeration value="es" />
+                      </restriction>
+                    </simpleType>
+                  </element>
+                </all>
+              </complexType>
+            </element>
+            <element maxOccurs="unbounded" name="serviceCall">
+              <complexType>
+                <sequence>
+                  <element name="serviceName" type="string" />
+                  <element minOccurs="0" maxOccurs="unbounded" name="serviceParam">
+                    <complexType>
+                      <simpleContent>
+                        <extension base="string">
+                          <attribute name="name" type="string" use="required" />
+                        </extension>
+                      </simpleContent>
+                    </complexType>
+                  </element>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="coginovApiResponse">
+        <complexType>
+          <sequence>
+            <element minOccurs="0" name="cacheToken" />
+            <element maxOccurs="unbounded" name="serviceResult">
+              <complexType mixed="true">
+                <sequence>
+                  <any minOccurs="0" maxOccurs="unbounded" processContents="lax" />
+                </sequence>
+                <attribute name="name" type="string" use="required" />
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="coginovApiResponse">
+    <wsdl:part name="coginovApiResponse" element="tns:coginovApiResponse" />
+  </wsdl:message>
+  <wsdl:message name="coginovApiRequest">
+    <wsdl:part name="coginovApiRequest" element="tns:coginovApiRequest" />
+  </wsdl:message>
+  <wsdl:portType name="coginovapi">
+    <wsdl:operation name="coginovApi">
+      <wsdl:input name="coginovApiRequest" message="tns:coginovApiRequest" />
+      <wsdl:output name="coginovApiResponse" message="tns:coginovApiResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="coginovapiSoap11" type="tns:coginovapi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="coginovApi">
+      <soap:operation soapAction="" />
+      <wsdl:input name="coginovApiRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="coginovApiResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="coginovapiService">
+    <wsdl:port name="coginovapiSoap11" binding="tns:coginovapiSoap11">
+      <soap:address location="http://api.coginov.com:8282/coginovapiservice.soap" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

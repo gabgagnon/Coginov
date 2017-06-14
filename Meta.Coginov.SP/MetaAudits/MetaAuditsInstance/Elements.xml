@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="MetaAudits"
+                OnQuickLaunch="TRUE"
+                TemplateType="100"
+                Url="Lists/MetaAudits"
+                Description="Site Audits">
+  </ListInstance>
+  <Module Name="AuditsPages" List="101" Url="Lists/MetaAudits/Forms" Path="MetaAudits">
+    <File Url="Duplicates.aspx" Type="GhostableInLibrary"></File>
+    <File Url="DisplayAudit.aspx" Type="GhostableInLibrary"></File>
+    <File Url="CreateAudit.aspx" Type="GhostableInLibrary"></File>
+  </Module>
+</Elements>

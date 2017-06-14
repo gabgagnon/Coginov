@@ -1,0 +1,29 @@
+{
+  "name": "coginov",
+  "authors": [
+    "Martin Cyr <martin.cyr@Metalogique.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0",
+    "highcharts": "^4.2.6",
+    "moment": "^2.15.0",
+    "d3-cloud": "^1.2.2",
+    "d3": "^4.2.3",
+    "datatables": "^1.10.12",
+    "filesize": "^3.3.0",
+    "spin.js": "spinjs#^2.3.2"
+  }
+}

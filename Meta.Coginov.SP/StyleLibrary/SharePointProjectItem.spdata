@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="StyleLibrary\" Type="ElementManifest" />
+    <ProjectItemFile Source="dashboard.css" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="dashboard.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="d3.cloud.all.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="highcharts.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="lodash.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="moment.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="datatables.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="datatables.css" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="all.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="all.min.js" Target="StyleLibrary\" Type="ElementFile" />
+    <ProjectItemFile Source="spin.js" Target="StyleLibrary\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
